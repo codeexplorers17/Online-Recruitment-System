@@ -8,10 +8,14 @@ import { AppComponent } from './app.component';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { NgxEditorModule } from 'ngx-editor';
+import { NewApplicationFormComponent } from './new-application-form/new-application-form.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NewApplicationFormComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
